@@ -1,0 +1,79 @@
+body{
+		background-image: url(../images/cm.jpg);
+		color: gray;
+		font-family: 'Raleway', georgia, sans-serif;
+		font-style: italic;
+}	
+
+h1 {
+	text-align: center;
+	color: black;
+	
+
+}
+h2 { 
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: normal;
+	margin-bottom: 30px;
+	color: black; 
+}
+h3	{
+	color: black;
+}
+
+/* CSS comment */
+
+img { 
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	border: 5px solid teal;
+	border-radius: 50% 0 50% 0;
+}
+
+
+h3:hover {
+	color: gray;
+	text-decoration: underline;
+	cursor: pointer;
+
+
+
+}
+
+p,
+ul,
+ol {
+	line-height: 1.5;
+	List-style: lower-greek;
+	padding: 0px;
+
+}
+p {
+	text-align: justify;
+}
+
+.main {
+	background: white;
+	width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: white;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px 10px rgba(255,255,255,0.6);
+}	
+
+a { 
+	color: red;
+	text-decoration: none;
+	font-weights: bold;
+}
+a:hover	{
+	text-decoration: underline;
+	transform: rorateZ(180deg);
+	display: line-block;bo
+}
+}
